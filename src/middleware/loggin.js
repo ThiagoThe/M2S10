@@ -1,6 +1,6 @@
-async function loggin(request, response, next){
-    console.log("Log registrado no sistema")
-    next()
+async function loggin(req, res, next) {
+  console.log("Log registrado no sistema");
+  next();
 }
 
-module.exports = { loggin }
+module.exports = { loggin };
